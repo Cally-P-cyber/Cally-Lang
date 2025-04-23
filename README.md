@@ -153,6 +153,20 @@ Cally‑Lang supports the following math and comparison operations:
 - **Post-increment:** `++`
 - **Post-decrement:** `--`
 
+## Cally Lang also has support for functions 
+
+```
+Main {
+    x = 5;
+    y = 10;
+    print(add(x,y)); // output returns 15
+}
+
+func add(a,b){
+  return a + b;
+}
+```
+
 ## Native PowerShell Integration and Variable Interpolation
 
 Cally‑Lang allows embedding native PowerShell code using the `p{ … }` syntax.
